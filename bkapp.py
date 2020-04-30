@@ -33,13 +33,13 @@ import fiona
 # ## Importeren files
 
 #File with the terrorist attacks
-Terrorist_attacks = pd.read_excel('C:/Users/kyrajongman/Documents/Challenge/Terrorist attacks.xlsx')
+Terrorist_attacks = pd.read_excel('Data/Terrorist attacks.xlsx')
 
 #File with the geometry values of the world
 world = gp.read_file(gp.datasets.get_path('naturalearth_lowres'))
 
 #File with human development index wordt geopend
-Human_Development_Index = pd.read_excel('C:/Users/kyrajongman/Documents/Challenge/HDI.xlsx')
+Human_Development_Index = pd.read_excel('Data/HDI.xlsx')
 
 # ## Cleanen data
 #Using dissolve to group by the dataframe with geometry values
