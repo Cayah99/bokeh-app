@@ -30,7 +30,6 @@ from bokeh.application import Application
 from bokeh.application.handlers.function import FunctionHandler
 import fiona
 
-
 # ## Importeren files
 
 #File with the terrorist attacks
@@ -80,7 +79,6 @@ Two_Dataframes = pd.merge(left=Terrorist_attacks_df, right=Countries_Polygon, le
 
 #Making a new dataframe with the year, country, amount of kills and geometry columns
 Amount_of_Terrorist_Attacks = gp.GeoDataFrame(Two_Dataframes, columns = ['Year', 'Country', 'no_cumulative', 'geometry'])
-
 
 # ## Making a map
 def bkapp(doc):
@@ -299,6 +297,3 @@ def bkapp(doc):
     
     #Making the document
     doc.add_root(tabs)
-
-show(bkapp)
-
