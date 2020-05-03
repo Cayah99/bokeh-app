@@ -6,6 +6,7 @@ dependencies:
   - seaborn
   - fiona
   - numpy
+  - geopandas
   - pip
   - pip:
     - jupyter-server-proxy
