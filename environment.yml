@@ -1,12 +1,16 @@
 dependencies:
-  - bokeh
-  - pandas
-  - scipy
+  - geopandas
   - shapely
   - seaborn
+  - yaml
   - fiona
+  - pandas
+  - xlrd
   - numpy
-  - geopandas
+  - pathlib
+  - bokeh
+  - requests
   - pip
   - pip:
+    - nbserverproxy
     - jupyter-server-proxy
