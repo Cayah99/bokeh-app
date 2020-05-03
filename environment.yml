@@ -2,6 +2,10 @@ dependencies:
   - bokeh
   - pandas
   - scipy
+  - shapely
+  - seaborn
+  - fiona
+  - numpy
   - pip
   - pip:
     - jupyter-server-proxy
