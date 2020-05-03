@@ -11,7 +11,7 @@ dependencies:
   - bokeh
   - requests
   - pip
-  - sklearn
+  - scikit-learn
   - pip:
     - nbserverproxy
     - jupyter-server-proxy
